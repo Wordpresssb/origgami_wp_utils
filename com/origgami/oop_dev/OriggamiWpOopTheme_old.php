@@ -4,11 +4,11 @@
  *
  * @author Pablo Pacheco <pablo.pacheco@origgami.com.br>
  */
-if (!class_exists('OriggamiWpOopTheme')) {
+if (!class_exists('OriggamiWpOopThemeOld')) {
 
 
 
-    class OriggamiWpOopTheme {
+    class OriggamiWpOopThemeOld {
 
         private $pieCssClasses = '.pie';
 
