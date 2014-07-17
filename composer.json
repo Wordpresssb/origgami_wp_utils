@@ -1,0 +1,20 @@
+{
+  "name": "Origgami/origgami_wp_utils",
+  "type": "library",
+  "keywords": [
+    "wordpress"    
+  ],
+  "version": "1.0",
+  "description": "Collection of useful things for Wordpress",
+  "homepage": "https://github.com/Origgami/origgami_wp_utils",
+  "license": "GPLv2",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Pablo Pacheco",
+      "email": "pablo.pacheco@origgami.com.br",
+      "homepage": "https://github.com/Origgami/origgami_wp_utils",
+      "role": "Developer"
+    }
+  ]  
+}
