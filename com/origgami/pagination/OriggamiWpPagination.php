@@ -128,8 +128,7 @@ if (!class_exists('OriggamiWpPagination')) {
                     $paginationArray['pages'][] = $pagesInfs;
                 }
 
-                $this->paginationArray = $paginationArray;
-                _log(print_r($this->paginationArray, true));
+                $this->paginationArray = $paginationArray;                
             }
         }
 
