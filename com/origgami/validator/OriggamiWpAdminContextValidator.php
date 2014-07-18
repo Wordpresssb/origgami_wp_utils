@@ -41,12 +41,11 @@ if (!class_exists('OriggamiWpAdminContextValidator')) {
 
                 if (!$objectID) {
                     global $post;
-                    $objectID = $post->ID;
+                    
+                    if($post){
+                        $objectID = $post->ID;
+                    }
                 }
-                
-                //error_log('id: ');
-                //error_log(print_r($objectID, true));
-                
 
                 if (!$objectID) {
                     return false;
