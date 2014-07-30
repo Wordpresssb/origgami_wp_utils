@@ -54,8 +54,8 @@ if (!class_exists('OriggamiWpPagination')) {
             return $this->searchForValue('action', 'next', $this->paginationArray['prevAndNextLinks']);
         }
 
-        private function getPageNumber($pagString) {
-            preg_match('/(?<=\>)\d(?=\<)/', $pagString, $matchesHref);
+        private function getPageNumber($pagString) {            
+            preg_match('/(?<=\>)\d{1,2}(?=\<)/', $pagString, $matchesHref);
             return $matchesHref[0];
         }
 
