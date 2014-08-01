@@ -15,7 +15,7 @@ class OriggamiWpRouter {
         $this->setTheme($theme);
 
         //Handle View
-        require dirname(__FILE__) . "./OriggamiWpView.php";
+        require dirname(__FILE__) . "/OriggamiWpView.php";
         $view = new OriggamiWpView($theme->getScriptsManager());
         $this->setView($view);
 
